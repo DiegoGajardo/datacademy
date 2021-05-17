@@ -10,11 +10,11 @@ def tipo_triangulo(beta,alpha):
     if (base_mitad == "si"):
         
         if (beta  == 60 and alpha == 60):
-            print("Es un triangulo rectangulo")
+            print("\n","Es un triangulo rectangulo")
         elif(beta == alpha):
-            print("Es un triangulo isosceles")
+            print("\n","Es un triangulo isosceles")
     else:
-        print("Es un triangulo escaleno")
+        print("\n","Es un triangulo escaleno")
 
 def triangulo(base,altura):
     area = (base * altura) / 2
@@ -24,7 +24,7 @@ def triangulo(base,altura):
 
     tipo_triangulo(beta, alpha)
 
-    print("El area es: ", area, "\n")
+    print("El area es: ", area)
 
 
 def run():
