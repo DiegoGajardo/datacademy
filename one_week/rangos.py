@@ -14,7 +14,7 @@ def main():
 def rangos(lim_inf, lim_sup, comp):
     while True:
         if (comp >= lim_inf and comp <= lim_sup) or (comp <= lim_inf and comp >= lim_sup):
-            print("\nGEnial! El numero", comp, " está en este rango!")
+            print("\nGenial! El numero", comp, " está en este rango!")
             break
         else:
             print("\nEl numero que escogiste es: ", comp)
